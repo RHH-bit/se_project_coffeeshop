@@ -145,3 +145,13 @@
   font-size: 20px;
   line-height: 30px;
 }
+
+.recipes__videos-caption {
+  gap: 24px;
+}
+
+.recipes__iframe {
+  height: 273px;
+  width: 480px;
+  border: 0;
+}
