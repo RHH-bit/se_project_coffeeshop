@@ -93,32 +93,39 @@
         <h2 class="reservation__title">Book a table</h2>
         <form action="  " class="reservation__form form">
           <fieldset class="form__fieldset">
-            <label for="" class="form__label"
+            <label for="name" class="form__label"
               >Name*
               <input
                 type="text"
                 class="form__input"
+                id="name"
                 placeholder="Name Surname"
               />
             </label>
-            <label for="" class="form__label"
+            <label for="guests" class="form__label"
               >Number of Guests*
-              <input type="number" class="form__input" placeholder="1-8" />
+              <input
+                type="number"
+                class="form__input"
+                id="guests"
+                placeholder="1-8"
+              />
             </label>
-            <label for="" class="form__label"
+            <label for="date" class="form__label"
               >Date & Time*
-              <input type="datetime-local" class="form__input" />
+              <input type="datetime-local" class="form__input" id="date" />
             </label>
-            <label for="" class="form__label"
+            <label for="email" class="form__label"
               >Your Email*
               <input
                 type="email"
                 class="form__input"
+                id="email"
                 placeholder="email@email.com"
               />
             </label>
           </fieldset>
-          <button class="form__button item__fade">Book a table</button>
+          <button class="form__button">Book a table</button>
           <label for="" class="form__label form__label_type_checkbox">
             <input type="checkbox" class="checkbox" />
             I agree with terms of use.
