@@ -69,7 +69,7 @@
           <div class="recipes__videos">
             <div>
               <iframe
-                src="https://youtu.be/j6VlT_jUVPc?si=--gtyaFrxSbwd4jQ"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=--gtyaFrxSbwd4jQ"
                 class="recipes__iframe"
               ></iframe>
               <p class="recipes__video-caption">
@@ -78,7 +78,7 @@
             </div>
             <div>
               <iframe
-                src="https://youtu.be/st571DYYTR8?si=Ch7Vw2c69hJA9CG2"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=F9JCkvQpImtIHlGC"
                 class="recipes__iframe"
               ></iframe>
               <p class="recipes__video-caption">
@@ -97,7 +97,7 @@
                   type="text"
                   class="form__input"
                   id="name"
-                  placeholder="Name Surname"
+                  placeholder="Name Surname" required
                 />
               </label>
               <label for="guests" class="form__label"
@@ -106,12 +106,12 @@
                   type="number"
                   class="form__input"
                   id="guests"
-                  placeholder="1-8"
+                  placeholder="1-8" required
                 />
               </label>
               <label for="date" class="form__label"
                 >Date & Time*
-                <input type="datetime-local" class="form__input" id="date" />
+                <input type="datetime-local" class="form__input" id="date" required/>
               </label>
               <label for="email" class="form__label"
                 >Your Email*
@@ -119,13 +119,13 @@
                   type="email"
                   class="form__input"
                   id="email"
-                  placeholder="email@email.com"
+                  placeholder="email@email.com" required
                 />
               </label>
             </fieldset>
             <button class="form__button">Book a table</button>
             <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="checkbox" id="checkbox" />
+              <input type="checkbox" class="checkbox" id="checkbox" required/>
               I agree with terms of use.
             </label>
           </form>
@@ -201,7 +201,6 @@
                 </li>
               </ul>
             </li>
-            </li>
           </ul>
         </section>
         <section class="about">
@@ -211,18 +210,21 @@
             <p class="about__paragraph">Our mission is keeping guests cozy and energized</p>
             <p class="about__paragraph">Besides that,we try to reduce our environmental impact--so we don't sell single-use cups. But you can buy one of our reusable cups!</li>
             </p>
+          </div>
           <div class="about__circle"></div>
-          <div class="about__circle_animation_blurred"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
       <footer id="contacts" class="footer">
         <div class="footer__content">
           <img src="./images/logo_coffeeshop_light.svg" alt="Triple Espresso logo" class="footer__logo">
+        <div>
+          <h3 class="footer__social-heading">Social Media</h3>
           <ul class="footer__list">
-            <h3 class="footer__social-heading">Social Media</h3>
             <li><img src="./images/facebook_white.svg" alt="Facebook icon" class="footer__social-icon"><a href="www.facebook.com" class="footer__social-link">Facebook</a></li>
             <li><img src="./images/instagram_white.svg" alt="Instagram icon" class="footer__social-icon"><a href="www.instagram.com" class="footer__social-link">Instagram</a></li>
           </ul>
+        </div>
         </div>
         <p class="footer__copyright">&copy Ralph Holewinski</p>
       </footer>

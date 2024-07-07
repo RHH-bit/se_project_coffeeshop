@@ -6,6 +6,7 @@
 .form__fieldset {
   border: none;
   background-color: #d9e7ff;
+  padding: 0;
 }
 
 .reservation__form {
@@ -24,7 +25,8 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #838383;
+  color: #000000;
+  padding: 0 20px 0;
 }
 
 .form__label {
@@ -60,6 +62,9 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  cursor: pointer;
+  padding: 0;
+  border: solid;
 }
 
 .form__button:hover {

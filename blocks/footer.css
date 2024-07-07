@@ -15,6 +15,7 @@
 
 .footer__list {
   list-style-type: none;
+  gap: 16px;
 }
 
 .footer__social-heading {
@@ -25,10 +26,8 @@
   line-height: 20px;
   margin-bottom: 20px;
   color: white;
-}
-
-.footer__list-item {
-  gap: 16px;
+  padding-left: 40px;
+  margin-top: 0;
 }
 
 .footer__social-icon {

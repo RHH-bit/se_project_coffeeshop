@@ -39,6 +39,11 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin: 0 0 20px;
+}
+
+.about_paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .about__circle {
@@ -53,13 +58,6 @@
 }
 
 .about__circle_animation_blurred {
-  background-color: #2f80ed;
-  width: 426px;
-  height: 426px;
-  position: absolute;
-  top: -152px;
-  left: -129px;
-  border-radius: 50%;
   animation: pulsate 1.3s infinite ease-in-out;
   z-index: -1;
 }
