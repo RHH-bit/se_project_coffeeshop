@@ -32,7 +32,7 @@
 .form__label {
   margin-bottom: 32px;
   display: block;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -43,7 +43,7 @@
   display: flex;
   justify-content: center;
   gap: 12px;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -57,14 +57,14 @@
   color: #ffffff;
   background-color: #2f80ed;
   border-radius: 4px;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   cursor: pointer;
   padding: 0;
-  border: solid;
+  border: none;
 }
 
 .form__button:hover {

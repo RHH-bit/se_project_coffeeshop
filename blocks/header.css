@@ -15,17 +15,19 @@
 }
 
 .header__image {
+  background-image: url(../images/inside_coffee_shop.png);
+  background-size: cover;
   width: 646px;
   height: 568px;
   position: absolute;
   right: 5px;
-  top: 94px;
+  top: 124px;
   object-fit: contain;
 }
 
 .header__title {
   max-width: 729px;
-  font-family: "Inter" "Noto Serif";
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -36,7 +38,7 @@
 
 .header__description {
   max-width: 683px;
-  font-family: "Noto Serif" "Inter";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -45,7 +47,7 @@
 }
 
 .header__span-accent {
-  font-family: "Noto Serif" "Inter";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -56,7 +58,7 @@
 
 .header__paragraph {
   margin: 0;
-  font-family: "Inter" "Noto Serif";
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
